@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Socialico;
+  src: url("../fonts/Socialico.ttf");
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: red;
+  font-family: Arial, sans-serif;
+}
+h1,
+ul {
+  margin: 0;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.pageHead {
+  background: #445161;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.pageHead:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.pageHead .productName {
+  width: 50%;
+  float: left;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.pageHead .headProductImg {
+  background: #ffffff;
+  width: 469px;
+  height: 214px;
+  float: right;
+}
+.pageHead .headProductList {
+  float: left;
+  list-style: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.copy {
+  height: 26px;
+  text-align: center;
+  color: #445161;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  background: #f5f5f5;
+}
