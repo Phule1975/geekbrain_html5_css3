@@ -42,15 +42,32 @@ ul {
   float: right;
 }
 .pageHead .headProductList {
+  width: 50%;
   float: left;
-  list-style: none;
+  list-style: inside url("../img/check_icon.png");
+  padding-left: 0;
+  margin-top: 28px;
   color: #ffffff;
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 }
-.copy {
+footer .contact {
+  padding: 50px;
+  box-sizing: border-box;
+  background: #445161;
+}
+footer .contact:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+footer .contact contactsHead {
+  color: #ffffff;
+  text-align: center;
+}
+footer .copy {
   height: 26px;
   text-align: center;
   color: #445161;

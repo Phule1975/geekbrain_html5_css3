@@ -40,8 +40,11 @@ h1, ul {margin: 0;}
     }
     
     .headProductList {
+        width: 50%;
         float: left;
-        list-style: none;
+        list-style: inside url("../img/check_icon.png");
+        padding-left: 0;
+        margin-top: 28px;
         color:@lightColor;
         font-size: 20px;
         font-weight: 400;
@@ -51,11 +54,22 @@ h1, ul {margin: 0;}
 
 }
 
+footer {
+
 .contact {
+    .sectionStylesMixin();
+    background: @darkColor;
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
     
-}
+
 contactsHead {
-    
+    color: @lightColor;
+    text-align: center;
+}
 }
 .copy {
     height: 26px;
@@ -66,3 +80,5 @@ contactsHead {
     line-height: 26px;
     background: @sectionLightBackColor;
 }
+
+};
