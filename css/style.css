@@ -6,12 +6,22 @@ html,
 body {
   margin: 0;
   height: 100%;
-  background: #ccc;
+  /*background: #ccc;*/
   font-family: Arial, sans-serif;
 }
 h1,
 ul {
   margin: 0;
+}
+.backgroundVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -999;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
 }
 .container {
   width: 1280px;
@@ -35,9 +45,7 @@ ul {
   font-weight: 400;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 }
-.pageHead .headProductImg {
-  background: #ffffff;
-  width: 469px;
+.pageHead .productVideo {
   height: 214px;
   float: right;
 }
